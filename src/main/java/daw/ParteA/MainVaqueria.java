@@ -15,13 +15,13 @@ import java.time.LocalDate;
 public class MainVaqueria {
 
     public static void main(String[] args) {
-        
+
         Vaqueria vaca = new Vaqueria();
         Vaca v1 = new Vaca("1", LocalDate.now(), "Pepe");
         Vaca v2 = new Vaca("2", LocalDate.now(), "Pepa");
         Vaca v3 = new Vaca("3", LocalDate.now(), "Andrés");
         Vaca v4 = new Vaca("4", LocalDate.now(), "Andrea");
         Vaca v5 = new Vaca("5", LocalDate.now(), "David");
-        
+
     }
 }
